@@ -37,11 +37,21 @@ export default {
 h1 {
   font-size: 3rem;
   font-weight: normal;
+  padding: 0 1rem;
 }
 h2 {
   font-size: 2.8rem;
   font-weight: 100;
+  padding: 0 1rem;
   text-transform: uppercase;
+}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
 }
 
 .mail {
