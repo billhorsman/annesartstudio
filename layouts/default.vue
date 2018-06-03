@@ -5,11 +5,11 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Proza+Libre');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600');
 html {
   background: black;
   color: white;
-  font-family: "Proza Libre", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 18px;
   box-sizing: border-box;
 }

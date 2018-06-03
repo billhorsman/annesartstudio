@@ -5,7 +5,7 @@
         Anne's Art Studio
       </h1>
       <h2 class="subtitle">
-        Print and Glass
+        Print <span>&amp;</span> Glass
       </h2>
       <p>
         <a href="mailto:hi@annesart.studio" class="mail">
@@ -36,21 +36,26 @@ export default {
 
 h1 {
   font-size: 3rem;
-  font-weight: normal;
+  font-weight: 600;
   padding: 0 1rem;
 }
 h2 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 100;
   padding: 0 1rem;
   text-transform: uppercase;
+  span {
+    font-weight: normal;
+    opacity: .4;
+    vertical-align: top;
+  }
 }
 @media (max-width: 550px) {
   h1 {
     font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -58,11 +63,12 @@ h2 {
   border-radius: .5rem;
   color: #eee;
   display: inline-block;
+  margin-top: 2rem;
   padding: 1rem;
   text-decoration: none;
   transition: all .3s;
   i {
-    transition: all .3s;
+    margin-right: .5rem;
   }
   &:hover {
     background: #222;
