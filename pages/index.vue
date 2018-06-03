@@ -7,12 +7,26 @@
       <h2 class="subtitle">
         Print <span>&amp;</span> Glass
       </h2>
-      <p>
-        <a href="mailto:hi@annesart.studio" class="mail">
-          <i class="far fa-envelope"/>
-          hi@annesart.studio
-        </a>
-      </p>
+      <ul>
+        <li>
+          <a href="mailto:hi@annesart.studio" class="mail">
+            <i class="far fa-envelope"/>
+            hi@annesart.studio
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/annesartstudio" class="twitter">
+            <i class="fab fa-twitter"/>
+            @annesartstudio
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/annesartstudio" class="instagram">
+            <i class="fab fa-instagram"/>
+            @annesartstudio
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -59,20 +73,38 @@ h2 {
   }
 }
 
-.mail {
-  border-radius: .5rem;
-  color: #eee;
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 1rem;
-  text-decoration: none;
-  transition: all .3s;
-  i {
-    margin-right: .5rem;
+ul {
+  margin: 2rem 0 0;
+  padding: 0;
+  > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-  &:hover {
-    background: #222;
-    color: white;
+  a {
+    border-radius: .5rem;
+    color: #eee;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all .3s;
+    i {
+      margin-right: .5rem;
+    }
+    &:hover {
+      background: #222;
+      color: white;
+    }
+    &.twitter {
+      i {
+        color: #4C9FEC;
+      }
+    }
+    &.instagram {
+      i {
+        color: #ED4A55;
+      }
+    }
   }
 }
 </style>
