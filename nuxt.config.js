@@ -7,7 +7,11 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Anne\'s Art Studio - linoprint & glass cutting artwork from Norfolk, UK' }
+      { hid: 'description', name: 'description', content: 'Linoprint & cut glass artwork from Norfolk, UK' },
+      { name: 'og:title', content: 'Anne\'s Art Studio' },
+      { name: 'og:description', content: 'Linoprint & cut glass artwork from Norfolk, UK' },
+      { name: 'og:url', content: 'https://www.annesart.studio/' },
+      { name: 'og:type', content: 'website' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: "96x96", href: '/favicon.png' },
