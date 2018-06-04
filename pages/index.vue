@@ -10,19 +10,19 @@
       <ul>
         <li>
           <a href="mailto:hi@annesart.studio" class="mail">
-            <i class="far fa-envelope"/>
+            <i class="far fa-fw fa-envelope"/>
             hi@annesart.studio
           </a>
         </li>
         <li>
           <a href="https://twitter.com/annesartstudio" class="twitter">
-            <i class="fab fa-twitter"/>
+            <i class="fab fa-fw fa-twitter"/>
             @annesartstudio
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/annesartstudio" class="instagram">
-            <i class="fab fa-instagram"/>
+            <i class="fab fa-fw fa-instagram"/>
             @annesartstudio
           </a>
         </li>
@@ -50,12 +50,12 @@ export default {
 
 h1 {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: bold;
   padding: 0 1rem;
 }
 h2 {
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: lighter;
   padding: 0 1rem;
   text-transform: uppercase;
   span {
@@ -74,12 +74,15 @@ h2 {
 }
 
 ul {
+  display: inline-block;
+  font-family: "Ubuntu Mono";
   margin: 2rem 0 0;
   padding: 0;
   > li {
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: left;
   }
   a {
     border-radius: .5rem;

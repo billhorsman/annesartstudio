@@ -5,11 +5,11 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600');
+@import url('https://fonts.googleapis.com/css?family=Overlock:400,700|Ubuntu+Mono');
 html {
   background: black;
   color: white;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Overlock", Arial, sans-serif;
   font-size: 18px;
   box-sizing: border-box;
 }
