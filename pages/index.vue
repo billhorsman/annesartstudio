@@ -59,8 +59,8 @@ h2 {
   padding: 0 1rem;
   text-transform: uppercase;
   span {
+    color: #777;
     font-weight: normal;
-    opacity: .4;
     vertical-align: top;
   }
 }
@@ -76,6 +76,7 @@ h2 {
 ul {
   display: inline-block;
   font-family: "Ubuntu Mono";
+  letter-spacing: 1px;
   margin: 2rem 0 0;
   padding: 0;
   > li {
@@ -86,7 +87,7 @@ ul {
   }
   a {
     border-radius: .5rem;
-    color: #eee;
+    color: #aaa;
     display: inline-block;
     padding: 1rem;
     text-decoration: none;
