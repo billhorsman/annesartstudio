@@ -26,6 +26,12 @@
             @annesartstudio
           </a>
         </li>
+        <li>
+          <a href="https://www.facebook.com/AnnesArt.studio/" class="facebook">
+            <i class="fab fa-fw fa-facebook"/>
+            AnnesArt.studio
+          </a>
+        </li>
       </ul>
     </div>
   </section>
@@ -107,6 +113,11 @@ ul {
     &.instagram {
       i {
         color: #ED4A55;
+      }
+    }
+    &.facebook {
+      i {
+        color: #4A66AD;
       }
     }
   }
