@@ -31,13 +31,16 @@
           </a>
         </li>
       </ul>
+      <p class="commissions">
+        Commissions taken — please <a href="mailto:hi@annesart.studio">get in touch</a>.
+      </p>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  components: {},
+  components: {}
 };
 </script>
 
@@ -73,6 +76,14 @@ h2 {
   h2 {
     font-size: 1.8rem;
   }
+}
+
+.commissions {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  color: black;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 ul {
