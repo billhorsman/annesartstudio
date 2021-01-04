@@ -4,31 +4,29 @@
       <h1 class="title">
         Anne's Art Studio
       </h1>
-      <h2 class="subtitle">
-        Print <span>&amp;</span> Glass
-      </h2>
+      <h2 class="subtitle">Print, Ink <span>&amp;</span> Glass</h2>
       <ul>
         <li>
           <a href="mailto:hi@annesart.studio" class="mail">
-            <i class="far fa-fw fa-envelope"/>
+            <i class="far fa-fw fa-envelope" />
             hi@annesart.studio
           </a>
         </li>
         <li>
           <a href="https://twitter.com/annesartstudio" class="twitter">
-            <i class="fab fa-fw fa-twitter"/>
+            <i class="fab fa-fw fa-twitter" />
             @annesartstudio
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/annesartstudio" class="instagram">
-            <i class="fab fa-fw fa-instagram"/>
+            <i class="fab fa-fw fa-instagram" />
             @annesartstudio
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/AnnesArt.studio/" class="facebook">
-            <i class="fab fa-fw fa-facebook"/>
+            <i class="fab fa-fw fa-facebook" />
             AnnesArt.studio
           </a>
         </li>
@@ -38,11 +36,9 @@
 </template>
 
 <script>
-
 export default {
-  components: {
-  }
-}
+  components: {},
+};
 </script>
 
 <style lang="scss">
@@ -92,14 +88,14 @@ ul {
     text-align: left;
   }
   a {
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     color: #aaa;
     display: inline-block;
     padding: 1rem;
     text-decoration: none;
-    transition: all .3s;
+    transition: all 0.3s;
     i {
-      margin-right: .5rem;
+      margin-right: 0.5rem;
     }
     &:hover {
       background: #222;
@@ -107,17 +103,17 @@ ul {
     }
     &.twitter {
       i {
-        color: #4C9FEC;
+        color: #4c9fec;
       }
     }
     &.instagram {
       i {
-        color: #ED4A55;
+        color: #ed4a55;
       }
     }
     &.facebook {
       i {
-        color: #4A66AD;
+        color: #4a66ad;
       }
     }
   }
