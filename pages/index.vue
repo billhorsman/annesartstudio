@@ -25,7 +25,7 @@ export default {
   computed: {
     artworks() {
       return [
-        { file: 'penguins.png', colSpan: 2 },
+        { file: 'penguins.png', colSpan: 2, css: 'pb-0' },
         { file: 'finlay-the-dog.png' },
         { file: 'albus-the-cat.png' },
         { file: 'curlew.png' },
@@ -48,6 +48,9 @@ export default {
       }
       if (artwork.rowSpan) {
         list.push(`row-span-${artwork.rowSpan}`)
+      }
+      if (artwork.css) {
+        list.push(artwork.css)
       }
       return list
     },
