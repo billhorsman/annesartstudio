@@ -1,20 +1,26 @@
 <template>
-  <footer class="flex justify-between items-center px-5">
-    &copy; Anne Elsom {{ year }}
+  <footer class="flex justify-between items-center px-2 md:px-5">
+    <aside class="whitespace-nowrap">&copy; Anne Elsom {{ year }}</aside>
     <nav class="flex">
-      <a href="mailto:hi@annesart.studio" class="mail">
+      <a href="mailto:hi@annesart.studio" class="mail p-1 md:p-2">
         <i class="far fa-fw fa-envelope" />
         <span class="hidden lg:inline-block">hi@annesart.studio</span>
       </a>
-      <a href="https://twitter.com/annesartstudio" class="twitter">
+      <a href="https://twitter.com/annesartstudio" class="twitter p-1 md:p-2">
         <i class="fab fa-fw fa-twitter" />
         <span class="hidden lg:inline-block">@annesartstudio</span>
       </a>
-      <a href="https://www.instagram.com/annesartstudio" class="instagram">
+      <a
+        href="https://www.instagram.com/annesartstudio"
+        class="instagram p-1 md:p-2"
+      >
         <i class="fab fa-fw fa-instagram" />
         <span class="hidden lg:inline-block">@annesartstudio</span>
       </a>
-      <a href="https://www.facebook.com/AnnesArt.studio/" class="facebook">
+      <a
+        href="https://www.facebook.com/AnnesArt.studio/"
+        class="facebook p-1 md:p-2"
+      >
         <i class="fab fa-fw fa-facebook" />
         <span class="hidden lg:inline-block">AnnesArt.studio</span>
       </a>
@@ -32,7 +38,6 @@ export default {
 </script>
 <style scoped lang="scss">
 a {
-  @apply p-2;
   border-radius: 0.5rem;
   display: block;
   text-decoration: none;
