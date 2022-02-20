@@ -9,6 +9,7 @@
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Overlock:400,700|Ubuntu+Mono');
 html {
+  background: #f6f3f0;
   font-family: 'Overlock', Arial, sans-serif;
   font-size: 18px;
   box-sizing: border-box;

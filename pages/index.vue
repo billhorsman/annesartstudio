@@ -5,7 +5,7 @@
     >
       <picture
         v-for="artwork in artworks"
-        class="bg-white flex flex-cols items-center p-5 rounded sm:shadow-lg"
+        class="bg-white flex flex-cols items-center p-5 sm:rounded-lg shadow-xl"
         :class="artworkClass(artwork)"
       >
         <img :src="`/art/${artwork.file}`" alt="" />
